@@ -15,21 +15,21 @@ void setup(){
 }
 void loop(){
   digitalWrite (led1, HIGH);
-  delay (10000); /* Delay time for 10 seconds */
+  delay (1000); /* Delay time for 1 seconds */
   digitalWrite (led1, LOW);
   digitalWrite (led2, HIGH);
-  delay (5000); /* Delay time for 5 seconds */
+  delay (2000); /* Delay time for 2 seconds */
   digitalWrite (led2, LOW);
   digitalWrite (led3, HIGH);
-  delay (8000); /* Delay time for 8 seconds */
+  delay (3000); /* Delay time for 3 seconds */
   digitalWrite (led3, LOW);
   digitalWrite (led4, HIGH);
   delay (4000); /* Delay time for 4 seconds */
   digitalWrite (led4, LOW);
   digitalWrite (led5, HIGH);
-  delay (1000); /* Delay time for 1 seconds */
+  delay (5000); /* Delay time for 5 seconds */
   digitalWrite (led5, LOW);
   digitalWrite (led6, HIGH);
-  delay (2000); /* Delay time for 2 seconds */
+  delay (6000); /* Delay time for 6 seconds */
   digitalWrite (led6, LOW);
 }
