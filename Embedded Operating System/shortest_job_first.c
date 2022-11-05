@@ -28,9 +28,9 @@ void loop(){
   delay (5000); /* Delay time for 5 seconds */
   digitalWrite (led2, LOW);
   digitalWrite (led3, HIGH);
-  delay (8000); /* Delay time for 8 seconds */
+  delay (7000); /* Delay time for 7 seconds */
   digitalWrite (led3, LOW);
   digitalWrite (led1, HIGH);
-  delay (10000); /* Delay time for 10 seconds */
+  delay (11000); /* Delay time for 11 seconds */
   digitalWrite (led1, LOW);
 }
